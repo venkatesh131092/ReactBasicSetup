@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.logo {
+  margin-left: 10px;
+}
+
+.login-view {
+  width: 30%;
+  margin-left: 35%;
+  text-align: left;
+  font-family: "Josefin Sans", cursive;
+  margin-top: 2%;
+  animation: Preview-Up 0.3s linear;
+}
+
+.login-header {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-top: 2%;
+}
+
+.preview-header {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Josefin Sans", cursive;
+}
+
+.preview-view {
+  border-radius: 8px;
+  border-width: 0px;
+  border-color: "rgba(0,0,0,0.2)";
+  animation: Preview-Up 0.3s linear;
+  pointer-events: none;
+  font-family: "Josefin Sans", cursive;
+}
+
+.table-view {
+  font-family: "Josefin Sans", cursive;
+  /* animation: Preview-Up 0.3s linear; */
+}
+
+@keyframes Preview-Up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
